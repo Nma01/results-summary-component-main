@@ -34,11 +34,11 @@ Users should be able to:
 (../screenshot-mobile.png)
 
 
-<!-- THIS IS OUTSTANDING -->
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](results-summary-component-nma01.netlify.app)
+- Live Site URL: [Add live site URL here](results-summary-component-nma01.netlify.app)
 
 
 
