@@ -1,0 +1,180 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.container{
+    /* width: 70%; */
+    /* width: 300px; */
+    margin: 5% 15% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+    /* Left Section  */
+
+.left-section{
+    background: linear-gradient(hsl(252deg, 100%, 67%),hsl(241deg, 81%, 54%));
+    width: 300px;
+    padding: 7% 5% 7%;
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    border-radius: 30px;
+}
+
+.fig-in-circle{
+    background: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left-section-h1{
+    font-size: 4rem;
+    padding-top: 30px;
+    margin: 0;
+
+}
+
+.left-section-h2{
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: white;
+}
+
+.left-section-h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.left-section-p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: hsl(241, 100%, 89%);
+    font-weight: 400;
+    
+}
+
+
+    /* Right Section */
+.right-section{
+    width: 300px;
+    padding: 5%;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.summary-h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.summary-p{
+    margin: 40px 0;
+}
+
+    /* Icons  */
+.visual-icon, .verbal-icon, .memory-icon, .reaction-icon { 
+    vertical-align: bottom;
+    margin-right: 5px;  
+}
+
+svg{
+    width: 0.9rem;
+}
+
+    /* Icon Text */
+.reaction-text{
+    color: hsl(0, 100%, 67%);
+}
+
+.memory-text{
+    color: hsl(39, 100%, 56%);
+    margin-right: 3px;
+}
+
+.verbal-text{
+    color: hsl(166, 100%, 37%);
+    margin-right: 18px;
+}
+
+.visual-text{
+    color: hsl(234, 85%, 45%);
+    margin-right: 22px;
+}
+
+.blue-color-text{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.grey-color-text {
+    color: hsl(240, 3%, 63%);
+    font-weight: 500;
+}
+
+.ratio{
+    margin-left: 70px;
+    text-align: center;
+
+}
+
+    /* Button */
+.btn {
+    padding: 13px 90px;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    font-size: 1rem;
+    border: 0;
+}
+
+.btn:hover{
+   background: linear-gradient(hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%));;
+}
+
+
+    /* Attribution Section */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+
+    /* Media Query */
+
+@media (max-width: 889px){
+
+    .container {
+            
+            margin:  auto ;
+            width: 300px;
+            display: block;
+            text-align: center;
+
+
+    }
+
+
+}
+
+@media (max-width: 376px) {
+
+   
+    
+
+
+}
